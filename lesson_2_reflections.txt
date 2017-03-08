@@ -1,0 +1,8 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+R.: Ao criar um repositório com o Git, são criados arquivos necessários para que o Git consiga "trabalhar" identificando o que precisa ser verificado nos commits. Ao criar o repositório com o git init, é criado um arquivo oculto .git (que pode ser visualizado digitando ls -a). Precisamos fazer isto iniciando o repositório para que existam as instruções básicas do GIT no arquivo .git oculto e assim iniciar o trabalho de versionamento.
+
+Você também pode querer executar git status depois de criar o arquivo.
+
+
+
+

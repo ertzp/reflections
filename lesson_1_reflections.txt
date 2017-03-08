@@ -1,0 +1,48 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+R.: Acredito ser a maneira mais prática de visualizar um linha de instruções em um arquivo original e em um arquivo novo modificado. Desta forma, com os trecho s de código diferentes isolados na linha de comando fica muito mais fácil identificar o "problema." A exibição da linha onde ocorre a difeença dos arquivos tambem ajuda a identificar o erro.
+
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+R.: Caso encontre um problema no arquivo de trablho atual, poderá voltar no passado em seu histórico de alterações e verificar como o código estava antes da alteraçãoa atual. Caso não encontre nada de difeente, poderá voltar ainda mais no histórico de alterações do arquivo, comparar e encontrar a diferença. Dependendo da quantidade de arquivos alterados e de alterações realizadas, poderemos voltar a este ponto a qualquer momento, desde que existam sempre os arquivos anteriores num histórico.
+
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+R.:
+GIT
+Contra:
+1. Esquecer de se salvar um commit depois de já ter feito grandes alterações no projeto;
+2. Criar pontos de commit em excesso podendo "atrapalhar" na análise de alterações futuras ao comparar versões;
+3. Criar commit juntando alterações que não fazem parte de um mesmo contexto como por exemplo uma correção de bug com uma nova implementação/funcionalidade no arquivo.
+
+Prós
+1. Você escolhe exatamente quando se deve adicionar um commit à alteração do arquivo;
+2. Você pode realizar uma alteração exatamente onde julgar necessário para que o seu históricio seja bem dcumentado;
+3. Você pode documentar a alteração como "correção de bug", "Melhoria" ou "Nova funcionalidade" por exemplo, facilitando assim ao pesquisar por algum histórico.
+
+Google Docs
+Contra:
+1. Salva a qualquer momento, até mesmo num ponto onde não existiu grande alteração do documento;
+2. Você não pode salvar onde julga ser importante salvar e comentar a sua alteração;
+
+Prós:
+1. Salva sempre independente do usuário lembrar de realizar a ação de salvar;
+2. Sempre existirão versões anteriores para comparação, mesmo estas não tendo uma lógica de alteração.
+
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+R.: O Git permite realizar commit em aquivos que estejam relacionados com uma única ação, verificando as dependências entre eles. Arquivos do Google Docs, geralmente não possuem ligação interna com outros arquivos do Drive.
+
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+R.: Primeiramente o repositório git deverá existir. para criar um novo repositório digite git int no local onde deseja criar o repositório. Para visualizar o histórico de alterações gerados pelos commits digita-se git log. Serão apresentados os commits mais recentes. Ao encontrar a mensagem do commit que lhe interesse, digite git diff copie e cole o ID anterior e o ID que deseja comparar e dê enter. Serão apresentadas as diferenças entre o par de commits selecionados.
+
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+R.: Pode-se realizar alteraçõs e saber que a qualquer momento pode-se voltar no arquivo passado, identificar o problema e atualizar no arquivo mais atual pesquisando com git checkout mais o ID que se deseja voltar atrás para verificação.
+
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+R.: Para poder trabalhar melhor alterando arquivos que podem estar sendo compartilhados com outros usuarios e poder a qualquer momento voltar a algum ponto anterior de alteração acessando o histórico através do git log e depois poder até voltar a alguma versão antiga digitando git checkout. Poderei também comparar arquivos pelos IDs dos históricos de commit através de git diff.
