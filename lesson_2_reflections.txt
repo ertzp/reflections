@@ -4,5 +4,11 @@ R.: Ao criar um repositório com o Git, são criados arquivos necessários para 
 Você também pode querer executar git status depois de criar o arquivo.
 
 
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+R.: A área de preparação é o local onde escolhemos os arquivos que desejamos ter commits. Podemos adicionar um ou vários arquivos na área de preparação. A área de tabalho mostra todos os arquivos presentes no diretório em que se está trabalhando. Todos os arquivos da área de trabalho podem ou não estar presentes na área de preparação. O repositório é o ambiente onde os arquivos selecionados poderão receber os commits.
+
+Aplicando git status podemos visualizar na área de preparação quais arquivos estão ou não prontos para receberem commit e se estão sendo rastreados.
+
+
 
 
