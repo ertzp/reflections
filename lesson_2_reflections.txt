@@ -16,3 +16,7 @@ R.: Ao invés de fazer um únco commite para todos os arquivos alterado da área
 
 4. Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
 R.: Fazer uma alteração paralela como algo experimental sem interferir do projeto principal u gera uma versão paralela como uma alteração de idioma. Gerar git branch ajudaria para criar um caminho paralelo do arquivo e poder fazer experiências sem arruinar o projeto principal.
+
+
+5. Como os diagramas ajudam a visualizar a estrutura de branches?
+R.: Ajudar a identificar a sequencia de commits em cada branch do mais atual ao mais antigo, quantos branch existem e onde um branch foi iniciado, quantos commits executados e onde ele parou em relação ao andamento dos commits do branch master principal.
