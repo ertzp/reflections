@@ -10,5 +10,9 @@ R.: A área de preparação é o local onde escolhemos os arquivos que desejamos
 Aplicando git status podemos visualizar na área de preparação quais arquivos estão ou não prontos para receberem commit e se estão sendo rastreados.
 
 
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+R.: Ao invés de fazer um únco commite para todos os arquivos alterado da área de trabalho, posso adicionar um arquivo à àrea de preparação e gerar um commit. Depois, adicionar um outro arquivo à área de preparação e criar outro commit. Se amas as alterações forem de uma correção conjunta de um mesmo problema ou alteração, poderia gerar um commit para ambos os arquivos.
+
+
 
 
