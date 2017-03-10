@@ -1,18 +1,18 @@
-O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+1. O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 R.: Ao criar um repositório com o Git, são criados arquivos necessários para que o Git consiga "trabalhar" identificando o que precisa ser verificado nos commits. Ao criar o repositório com o git init, é criado um arquivo oculto .git (que pode ser visualizado digitando ls -a). Precisamos fazer isto iniciando o repositório para que existam as instruções básicas do GIT no arquivo .git oculto e assim iniciar o trabalho de versionamento.
 
 Você também pode querer executar git status depois de criar o arquivo.
 
 
-Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+2. Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 R.: A área de preparação é o local onde escolhemos os arquivos que desejamos ter commits. Podemos adicionar um ou vários arquivos na área de preparação. A área de tabalho mostra todos os arquivos presentes no diretório em que se está trabalhando. Todos os arquivos da área de trabalho podem ou não estar presentes na área de preparação. O repositório é o ambiente onde os arquivos selecionados poderão receber os commits.
 
 Aplicando git status podemos visualizar na área de preparação quais arquivos estão ou não prontos para receberem commit e se estão sendo rastreados.
 
 
-Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+3. Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
 R.: Ao invés de fazer um únco commite para todos os arquivos alterado da área de trabalho, posso adicionar um arquivo à àrea de preparação e gerar um commit. Depois, adicionar um outro arquivo à área de preparação e criar outro commit. Se amas as alterações forem de uma correção conjunta de um mesmo problema ou alteração, poderia gerar um commit para ambos os arquivos.
 
 
-
-
+4. Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+R.: Fazer uma alteração paralela como algo experimental sem interferir do projeto principal u gera uma versão paralela como uma alteração de idioma. Gerar git branch ajudaria para criar um caminho paralelo do arquivo e poder fazer experiências sem arruinar o projeto principal.
