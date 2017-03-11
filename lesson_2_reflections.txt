@@ -20,3 +20,7 @@ R.: Fazer uma alteração paralela como algo experimental sem interferir do proj
 
 5. Como os diagramas ajudam a visualizar a estrutura de branches?
 R.: Ajudar a identificar a sequencia de commits em cada branch do mais atual ao mais antigo, quantos branch existem e onde um branch foi iniciado, quantos commits executados e onde ele parou em relação ao andamento dos commits do branch master principal.
+
+
+6. Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+R.: Mescla-se os commits dos dois branchs intercalado pelo hora de criação, juntando todos os commits em uma única fila no branch em que se está. Representa-se no diagrama com um commit nomeado "Merge branch2".
