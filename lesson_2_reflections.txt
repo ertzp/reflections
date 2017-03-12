@@ -24,3 +24,9 @@ R.: Ajudar a identificar a sequencia de commits em cada branch do mais atual ao 
 
 6. Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
 R.: Mescla-se os commits dos dois branchs intercalado pelo hora de criação, juntando todos os commits em uma única fila no branch em que se está. Representa-se no diagrama com um commit nomeado "Merge branch2".
+
+
+7. Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+R.: Mesclagem automática do git ajuda e muito atualizar um arquivo incluindo outros commits ao branch que se deseja atualizar e de forma rápida, porém, algumas vezes o git não consegue unificar (git merge) os arquivos identificando conflito, quando, por exemplo, uma mesma linha tenha sido alterada em ambos os arquivos. Ele mostrará sempre o conflito, após o git merge branch1 branch2 identificando os locais de conflito para falicitar que o usuário identifique e corrija o conflito.
+
+Isto com certeza é bem melhor do que sempre fazer alterações/comparações manuais pois pode levar muito tempo para identificar cada ponto alterado do arquivo.
