@@ -4,4 +4,15 @@ R.: Quando eu precisar continuar o trabalho de alteração de um arquivo de outr
 2. Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
 R.: Melhor fazer a solicitação git pull origin master do Github (remoto) quando eu achar realmente necessário pois localmente eu posso estar trabalhando em alguma alteração já com outros commits e ao fazer pull automático, trazer alterações que não são necessárias ao meu projeto.
 
+3. Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+R.: Bifurcações (fork):
+- No GitHub utiliza-se "fork" para bifurcar um repositório para a sua conta, criando em repositório no seu Github.
+- fork só existe no Github
+
+Clones
+- git clone clona o repositório para o seu local;
+
+Branches
+- git branch exibe todos os branches existentes no arquivo;
+- git branch nome muda para o branch "nome"
 
