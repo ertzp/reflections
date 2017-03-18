@@ -18,3 +18,6 @@ Branches
 
 4. Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
 R.: Tendo a cópia é mais seguro continuar as alterações de um arquivo atualizado do remoto. Se depois você alterar o local, e o remoto for atualizado remotamente por outra pessoa, você poderá dar git pull origin master ou git fetch origin/master master e depois gitt merge origin/master master paraa tualizar o seu local.
+
+5. Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+R.: Eu enviaria um email para solicitar o arquivo que deejo colaborar. Alteraria o arquivo e depois enviaria o arquivo ao destinatário informando as linhas em que realizei as alterações, solicitando que analise e veja se pode adicionar ao arquivo master original. Mais fácil seria falar diretamente com a pessoa o mais difícil seria ter que informar as linhas alteradas e assim a pessoa abrir 2 arquivos e comparar as linhas lado a lado para ver se está ok e depois adicionar ao arquivo original.
