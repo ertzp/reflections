@@ -16,3 +16,5 @@ Branches
 - git branch exibe todos os branches existentes no arquivo;
 - git branch nome muda para o branch "nome"
 
+4. Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+R.: Tendo a cópia é mais seguro continuar as alterações de um arquivo atualizado do remoto. Se depois você alterar o local, e o remoto for atualizado remotamente por outra pessoa, você poderá dar git pull origin master ou git fetch origin/master master e depois gitt merge origin/master master paraa tualizar o seu local.
