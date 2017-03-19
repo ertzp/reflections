@@ -21,3 +21,6 @@ R.: Tendo a cópia é mais seguro continuar as alterações de um arquivo atuali
 
 5. Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
 R.: Eu enviaria um email para solicitar o arquivo que deejo colaborar. Alteraria o arquivo e depois enviaria o arquivo ao destinatário informando as linhas em que realizei as alterações, solicitando que analise e veja se pode adicionar ao arquivo master original. Mais fácil seria falar diretamente com a pessoa o mais difícil seria ter que informar as linhas alteradas e assim a pessoa abrir 2 arquivos e comparar as linhas lado a lado para ver se está ok e depois adicionar ao arquivo original.
+
+6. Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+R.: Somente iria fazer alterações em um branch separado caso eu necessite de que alguem valide minhas alterações antes de implementar no branch master. Seria o caso de um desenvolvimento "paralelo" que mereça uma análise posterior sem precisar afetar o master onde outras pessoas possam estar baixando o arquivo para trabalho. Se eu tivesse trabalhando sozinho no projeto acredito não ter a necessidade de criar um branch diferente do master para trabalhar.
